@@ -1,4 +1,4 @@
-const applicationModel = require("../Models/ApplicationModel");
+const applicationModel = require("../Models/Applicationmodel");
 
 exports.getApplication=async(req,res,next)=>{
     applicationModel.create(req.body)
