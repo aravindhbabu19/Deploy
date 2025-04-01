@@ -6,7 +6,7 @@ const Maternity = () => {
             useEffect(()=>{
                 const fetchPost=async()=>{
                     try{
-                    const response=await fetch('http://localhost:3500/api/v1/'+'Maternity')
+                    const response=await fetch('http://localhost:3500/api/v1/Maternity')
                     const maternity=await response.json()
                     console.log(maternity.Maternity)
                     setMaternity(maternity.Maternity)
