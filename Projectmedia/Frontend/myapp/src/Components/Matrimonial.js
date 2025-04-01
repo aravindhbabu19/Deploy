@@ -6,7 +6,7 @@ const Matrimonial = () => {
                 useEffect(()=>{
                     const fetchPost=async()=>{
                         try{
-                        const response=await fetch('http://localhost:3500/api/v1/'+'Matri')
+                        const response=await fetch('http://localhost:3500/api/v1/Matri')
                         const matrimonial=await response.json()
                         console.log(matrimonial.Matri)
                         setMatrimonial(matrimonial.Matri)
