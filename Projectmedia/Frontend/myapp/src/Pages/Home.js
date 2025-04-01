@@ -96,7 +96,7 @@ const Home = () => {
             <h1 class='home-cl'> In the heart of Kanyakumari</h1>
             <hr></hr>
             <p class='home-para'>Our premium photoshoot Studio in Bangalore allows us to offer curated experience for maternity photoshoot in bangalore, newborn photoshoot , baby photoshoot , couple photoshoot , family photoshoot , matrimonial photoshoot , professional headshots , weddings & event photography and much more...</p>
-            <img src='./Images/Media/stud1.jpg' class='home-back'/>
+            <img src='./Images/Media/stud1.jpg' alt='' class='home-back'/>
           </div>
           <div class='home-br2'>
             <h1 class='home-para1'>Premium Photo Frames</h1>
