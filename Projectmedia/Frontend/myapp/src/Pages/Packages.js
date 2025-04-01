@@ -4,7 +4,7 @@ const Packages = () => {
   return (
     <div class='container'>
         {/* <div class='packages-div'></div> */}
-        <img src='./Images/Media/pack.jpg' class='packages-div ms-1' />
+        <img src='./Images/Media/pack.jpg' class='packages-div ms-1' alt=''/>
         <h1 class='pack-h1 d-flex justify-content-center mt-4'>Packages</h1>
         <div class='row pack-br d-flex justify-content-center mt-5 ms-1 pb-4'>
           <h4 class='pack-h4 mt-4 d-flex justify-content-center'>Package one</h4>
