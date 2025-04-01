@@ -6,7 +6,7 @@ const Wedding = () => {
                     useEffect(()=>{
                         const fetchPost=async()=>{
                             try{
-                            const response=await fetch('http://localhost:3500/api/v1/'+'Wed')
+                            const response=await fetch('http://localhost:3500/api/v1/Wed')
                             const wedding=await response.json()
                             console.log(wedding.Wed)
                             setWedding(wedding.Wed)
