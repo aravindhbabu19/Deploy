@@ -26,7 +26,7 @@ const Contact = () => {
   return (
     <div class='container mt-5'>
         {/* <div class='contact-div'></div> */}
-        <img src='./Images/Media/cam2.jpg' class='about-div ms-1' />
+        <img src='./Images/Media/cam2.jpg' alt='' class='about-div ms-1' />
         <div class='contact-br'>
             <div class='row'>
                 <div class='col-12 col-sm-12 col-md-12 col-lg-4 mt-5 d-flex justify-content-center'>
