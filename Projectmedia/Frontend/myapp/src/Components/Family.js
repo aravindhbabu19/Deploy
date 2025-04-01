@@ -6,7 +6,7 @@ const Family = () => {
         useEffect(()=>{
             const fetchPost=async()=>{
                 try{
-                const response=await fetch('http://localhost:3500/api/v1/'+'Family')
+                const response=await fetch('http://localhost:3500/api/v1/Family')
                 const family=await response.json()
                 console.log(family.Family)
                 setFamily(family.Family)
