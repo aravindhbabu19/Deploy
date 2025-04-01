@@ -1,4 +1,4 @@
-const babyModel = require("../Models/babymodel");
+const babyModel = require("../Models/babyModel");
 
 
 exports.getBaby=async(req,res,next)=>{
