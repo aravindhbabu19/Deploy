@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 import { Link } from 'react-router-dom'
-import { FaArrowRight } from 'react-icons/fa'
+
 const Home = () => {
     const [name,setName]=useState("")
     const [mobile,setMobile]=useState("")
@@ -28,7 +28,7 @@ const Home = () => {
    
     <div class='container'>
         {/* <div class='home-div1'></div> */}
-        <img src='./Images/Media/cam1.jpg' class='home-div1 ms-1' />
+        <img src='./Images/Media/cam1.jpg' alt='' class='home-div1 ms-1' />
         <h2 class='home-head mt-3 ms-2'>Get The best photoshoot in Kanyakumari</h2>
         <h5 class='home-head1'>Book photoshoot in bangalore to experience moments of joy with beautiful styles from Conceptual, Candid and Lifestyle. </h5>
         <div class='home-ph mt-5'>
