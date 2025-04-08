@@ -6,7 +6,7 @@ const Baby = () => {
     useEffect(()=>{
         const fetchPost=async()=>{
             try{
-            const response=await fetch('http://localhost:3500/api/v1/Couples')
+            const response=await fetch('https://rsmedia1.onrender.com/api/v1/Couples')
             const couples=await response.json()
             console.log(couples.Couples)
             setCouples(couples.Couples)
