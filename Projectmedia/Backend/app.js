@@ -21,12 +21,18 @@ const PORT=process.env.PORT||3500
 
 
 app.use(express.json())
-app.use(cors(
-    {
-        origin: "https://deploy-1-ogbj.onrender.com"
-    }
-))
-app.options('*', cors())
+// app.use(cors(
+//     {
+//         origin: "https://deploy-1-ogbj.onrender.com"
+//     }
+// ))
+// app.options('*', cors())
+const corsOptions ={
+   origin:'*', 
+   credentials:true,            //access-control-allow-credentials:true
+   optionSuccessStatus:200,
+}
+app.use(cors(corsOptions))
 
 app.use('/api/v1/',Baby)
 app.use('/api/v1/',Couples)
