@@ -28,7 +28,7 @@ app.use(express.json())
 // ))
 // app.options('*', cors())
 const corsOptions ={
-   origin:'*', 
+   origin:'https://deploy-1-ogbj.onrender.com', 
    credentials:true,            //access-control-allow-credentials:true
    optionSuccessStatus:200,
 }
