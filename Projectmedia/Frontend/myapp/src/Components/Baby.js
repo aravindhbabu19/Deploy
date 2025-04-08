@@ -6,10 +6,7 @@ const Baby = () => {
     useEffect(()=>{
         const fetchPost=async()=>{
             try{
-            const response = await fetch('https://rsmedia1.onrender.com/api/v1/Baby',{mode: 'no-cors',
-  credentials: 'include',
-  method: 'GET',
-  headers: headers})
+            const response = await fetch('https://rsmedia1.onrender.com/api/v1/Baby')
             const baby=await response.json()
             console.log(baby.Baby)
             setBaby(baby.Baby)
