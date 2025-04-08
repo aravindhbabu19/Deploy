@@ -6,7 +6,7 @@ const Newborn = () => {
                 useEffect(()=>{
                     const fetchPost=async()=>{
                         try{
-                        const response=await fetch('http://localhost:3500/api/v1/New')
+                        const response=await fetch('https://rsmedia1.onrender.com/api/v1/New')
                         const newBorn=await response.json()
                         console.log(newBorn.New)
                         setNewBorn(newBorn.New)
