@@ -21,7 +21,11 @@ const PORT=process.env.PORT||3500
 
 
 app.use(express.json())
-app.use(cors())
+app.use(cors(
+    {
+        origin: "https://deploy-1-ogbj.onrender.com"
+    }
+))
 
 app.use('/api/v1/',Baby)
 app.use('/api/v1/',Couples)
