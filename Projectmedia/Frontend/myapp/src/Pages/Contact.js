@@ -14,7 +14,7 @@ const Contact = () => {
   
     const handleSubmit=(e)=>{
       e.preventDefault()
-      axios.post('https://rsmedia1.onrender.com/api/v1/form',{first,last,email,contact,message})
+      axios.post('http://localhost:3500/api/v1/form',{first,last,email,contact,message})
       .then((result)=>{
           console.log(result)
           toast.success("your Data Register Successfully")
