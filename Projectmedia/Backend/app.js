@@ -26,6 +26,7 @@ app.use(cors(
         origin: "https://deploy-1-ogbj.onrender.com"
     }
 ))
+app.options('*', cors())
 
 app.use('/api/v1/',Baby)
 app.use('/api/v1/',Couples)
