@@ -6,7 +6,7 @@ const Baby = () => {
     useEffect(()=>{
         const fetchPost=async()=>{
             try{
-            const response = await fetch('https://deploy-1-ww16.onrender.com/api/v1/Baby',{ mode: 'no-cors'})
+            const response = await fetch('http://localhost:3500/api/v1/Baby',{ mode: 'no-cors'})
             const baby=await response.json()
             console.log(baby.Baby)
             setBaby(baby.Baby)
